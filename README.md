@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/nomtek/NomtekUtills.svg)](https://jitpack.io/#nomtek/NomtekUtills)
 # Nomtek Utills
 Collection of tools for android development
 
@@ -14,7 +15,7 @@ allprojects {
 
 ##### 2. Add dependency to your gradle file
 
-###### ToolbarController  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/toolbarcontroller/README.md)  - [![](https://jitpack.io/v/nomtek/NomtekUtills.svg)](https://jitpack.io/#nomtek/NomtekUtills)
+###### ToolbarController  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/toolbarcontroller/README.md)
 ```gradle
 implementation 'com.github.nomtek.NomtekUtills:toolbarcontroller:1.0.1'
 ``` 
