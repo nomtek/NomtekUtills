@@ -1,1 +1,1 @@
-![](./resources/app.gif)
+![](./resources/app.gif | height=150)
