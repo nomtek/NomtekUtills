@@ -17,5 +17,11 @@ allprojects {
 
 ###### ToolbarController  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/toolbarcontroller/README.md)
 ```gradle
-implementation 'com.github.nomtek.NomtekUtills:toolbarcontroller:1.0.1'
+implementation 'com.github.nomtek.NomtekUtills:toolbarcontroller:1.0.2'
 ``` 
+
+###### StatusbarController  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/statusbarcontroller/README.md)  - [![](https://jitpack.io/v/nomtek/NomtekUtills.svg)](https://jitpack.io/#nomtek/NomtekUtills)
+```gradle
+implementation 'com.github.nomtek.NomtekUtills:statusbarcontroller:1.0.2'
+``` 
+

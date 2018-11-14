@@ -4,21 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize" />
+    tools:context="com.nomtek.MainActivity">
 
     <Button
-        android:id="@+id/goToNextActivityButton"
+        android:id="@+id/toolbarButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to second activity"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Toolbar Controller"
+        app:layout_constraintBottom_toTopOf="@+id/statusbarButton"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/statusbarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Statusbar Controller"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarButton" />
 
 </android.support.constraint.ConstraintLayout>
