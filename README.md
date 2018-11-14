@@ -3,9 +3,24 @@ Create and customise your own toolbar!
 
 <img src="./resources/app.gif" width="250">
 
+### How to install
+##### 1. Add jitpack repository to your gradle file 
+```gradle
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+##### 2. Add dependency to your gradle file
+```gradle
+implementation 'com.github.nomtek:ToolbarController:x.x.x'
+``` 
+where x.x.x is release version.
 
 ### How to use ( full example in the "app" folder )
-
 ##### 1. Add toolbar to your activity
 ```xml
   <android.support.v7.widget.Toolbar
