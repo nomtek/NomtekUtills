@@ -8,15 +8,15 @@ import com.nomtek.libs.toolbarcontroller.ToolbarController
 import com.nomtek.toolbarcontroller.example.decorators.ToolbarBackButtonDecorator
 import com.nomtek.toolbarcontroller.example.decorators.ToolbarBackgroundColorDecorator
 import com.nomtek.toolbarcontroller.example.decorators.ToolbarTitleDecorator
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_toolbar.*
 
-class SecondActivity : AppCompatActivity() {
+class ToolbarSecondActivity : AppCompatActivity() {
 
     private val toolbarController: ToolbarController = ToolbarController()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_second)
+        setContentView(R.layout.activity_second_toolbar)
 
         toolbarController
                 .addDecorator(ToolbarBackgroundColorDecorator(colorRes = R.color.colorPrimary))
