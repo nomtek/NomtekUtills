@@ -1,7 +1,5 @@
-# ToolbarController (min sdk version - 16 )
-Create and customise your own toolbar!
-
-<img src="./resources/app.gif" width="250">
+# Nomtek Utills
+Collection of tools for android development
 
 ### How to install
 ##### 1. Add jitpack repository to your gradle file 
