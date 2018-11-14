@@ -5,7 +5,7 @@ Create and customise your own toolbar!
 <img src="../resources/app.gif" width="250">
 
 ### How to use ( full example in the "app" folder )
-##### 1. Add toolbar to your activity
+##### 1. Add toolbar to your activity  - remember to change Activity theme to NoActionBar!
 ```xml
   <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar" 
