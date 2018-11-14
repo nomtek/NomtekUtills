@@ -1,1 +1,1 @@
-include ':app', ':toolbarcontroller'
+include ':app', ':toolbarcontroller', ':statusbarcontroller'
