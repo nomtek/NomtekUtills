@@ -16,8 +16,7 @@ allprojects {
 
 ##### 2. Add dependency to your gradle file
 
-###### ToolbarController
+###### ToolbarController [How to use](https://github.com/nomtek/NomtekUtills/blob/master/toolbarcontroller/README.md)
 ```gradle
 implementation 'com.github.nomtek.NomtekUtills:toolbarcontroller:1.0.0'
 ``` 
-[How to use](https://github.com/user/repo/blob/branch/other_file.md)
