@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="nu_toolbar_elevation">4dp</dimen>
+    <dimen name="nu_height_status_bar">0dp</dimen>
+    <dimen name="nu_toolbar_title_left_margin">16dp</dimen>
+    <dimen name="nu_toolbar_title_left_margin_with_back_action">56dp</dimen>
+
+
+    <!-- FONT SIZES -->
+    <dimen name="nu_font_size_extra_extra_small">10sp</dimen>
+    <dimen name="nu_font_size_extra_small">12sp</dimen>
+    <dimen name="nu_font_size_small">14sp</dimen>
+    <dimen name="nu_font_size_normal">16sp</dimen>
+    <dimen name="nu_font_size_extra_big">24sp</dimen>
+    <dimen name="nu_font_size_big">20sp</dimen>
+    <dimen name="nu_font_size_medium">18sp</dimen>
+
+</resources>

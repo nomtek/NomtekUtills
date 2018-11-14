@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolbarNoInset">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="contentInsetLeft">0dp</item>
+        <item name="contentInsetRight">0dp</item>
+    </style>
+
+    <style name="ToolbarIconImageView" parent="ToolbarIconImageViewVersionIndependent">
+        <item name="android:background">@drawable/transparent_round_button_selector</item>
+    </style>
+
+    <style name="ToolbarIconImageViewLight" parent="ToolbarIconImageView">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="ToolbarIconImageViewDark" parent="ToolbarIconImageView">
+        <item name="android:tint">@color/black</item>
+    </style>
+
+
+    <style name="ToolbarIconImageViewVersionIndependent">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="ToolbarTitleNormal">
+        <item name="android:textSize">@dimen/nu_font_size_big</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ToolbarTitleNormalBlack" parent="ToolbarTitleNormal">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ToolbarTitleNormalWhite" parent="ToolbarTitleNormal">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ToolbarTitleBold">
+        <item name="android:textSize">@dimen/nu_font_size_big</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ToolbarTitleBoldBlack" parent="ToolbarTitleBold">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ToolbarTitleBoldWhite" parent="ToolbarTitleBold">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ToolbarTitleNormalBlackWithBackAction" parent="ToolbarTitleNormalBlack">
+        <item name="android:layout_marginLeft">56dp</item>
+    </style>
+
+    <style name="ToolbarTitleNormalWhiteWithBackAction" parent="ToolbarTitleNormalWhite">
+        <item name="android:layout_marginLeft">56dp</item>
+    </style>
+
+    <style name="ToolbarTitleBoldWhiteWithBackAction" parent="ToolbarTitleBoldWhite">
+        <item name="android:layout_marginLeft">56dp</item>
+    </style>
+
+    <style name="ToolbarTitleBoldBlackWithBackAction" parent="ToolbarTitleBoldBlack">
+        <item name="android:layout_marginLeft">56dp</item>
+    </style>
+
+</resources>

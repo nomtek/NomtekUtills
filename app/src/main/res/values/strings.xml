@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToolbarControllerExample</string>
+    <string name="main_activity_toolbar_title">Main activity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="second_activity_toolbar_title">Second activity</string>
+
+</resources>
