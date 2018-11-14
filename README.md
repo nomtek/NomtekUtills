@@ -16,9 +16,8 @@ allprojects {
 
 ##### 2. Add dependency to your gradle file
 ```gradle
-implementation 'com.github.nomtek:ToolbarController:x.x.x'
+implementation 'com.github.nomtek:ToolbarController::1.0.0'
 ``` 
-where x.x.x is release version.
 
 ### How to use ( full example in the "app" folder )
 ##### 1. Add toolbar to your activity
