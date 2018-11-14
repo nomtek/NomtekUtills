@@ -1,9 +1,8 @@
 package com.nomtek.toolbarcontroller.example
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.widget.Toolbar
+import android.support.v7.app.AppCompatActivity
 import com.nomtek.libs.toolbarcontroller.ToolbarController
 import com.nomtek.toolbarcontroller.example.decorators.ToolbarBackgroundColorDecorator
 import com.nomtek.toolbarcontroller.example.decorators.ToolbarTitleDecorator
@@ -20,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         toolbarController
                 .addDecorator(ToolbarBackgroundColorDecorator(colorRes= R.color.green))
                 .addDecorator(ToolbarTitleDecorator(resources.getString(R.string.main_activity_toolbar_title)))
-                .build(toolbar as Toolbar, R.layout.main_activity_toolbar)
+                .build(toolbar, R.layout.main_activity_toolbar)
 
 
         goToNextActivityButton.setOnClickListener {
