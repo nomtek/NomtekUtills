@@ -4,7 +4,6 @@ import android.app.Activity
 import android.os.Build
 import android.support.annotation.RequiresApi
 import android.support.v4.content.ContextCompat
-import android.util.TypedValue
 import android.view.View
 import android.view.WindowManager
 import com.nomtek.libs.R
@@ -12,7 +11,7 @@ import com.nomtek.libs.R
 @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
 data class StatusBarController(
         private val activity: Activity,
-        private var backgroundColorArgb: Int? = null,
+        private var backgroundColorHex: Int? = null,
         private var backgroundColorRes: Int? = null,
         private var isDarkTint: Boolean = false
 ) {
@@ -36,10 +35,10 @@ data class StatusBarController(
         return if (isUsingDarkTintPreMarshamallow()) {
             ContextCompat.getColor(activity, R.color.nu_statusbarcontroler_gray)
         } else {
-            if (backgroundColorArgb == null) {
+            if (backgroundColorHex == null) {
                 ContextCompat.getColor(activity, backgroundColorRes ?: R.color.colorPrimaryDark)
             } else {
-                backgroundColorArgb!!
+                backgroundColorHex!!
             }
         }
     }
