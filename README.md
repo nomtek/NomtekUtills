@@ -1,4 +1,4 @@
-# ToolbarController
+# ToolbarController (min sdk version - 16 )
 Create and customise your own toolbar!
 
 <img src="./resources/app.gif" width="250">
