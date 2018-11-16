@@ -6,6 +6,7 @@ Customize toolbar with one line of the code!
 <img src="../resources/statusbar.gif" width="250">
 
 ### How to use ( full example in the "app" folder )
+
 ##### 1.  Set statusbar color with resouce color
 ```kotlin
 override fun onCreate(savedInstanceState: Bundle?) {

@@ -5,7 +5,9 @@ Create and customise your own toolbar!
 <img src="../resources/app.gif" width="250">
 
 ### How to use ( full example in the "app" folder )
+
 ##### 1. Add toolbar to your activity  - remember to change Activity theme to NoActionBar in styles.xml!
+
 ```xml
   <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar" 
@@ -13,7 +15,7 @@ Create and customise your own toolbar!
         android:layout_height="?attr/actionBarSize" />
 ```
 
-##### 2. Create the content layout for your toolbar
+##### 3. Create the content layout for your toolbar
 ```xml
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -45,7 +47,7 @@ Create and customise your own toolbar!
 </android.support.constraint.ConstraintLayout>
 ```
 
-##### 2. Create decorators for each view item you want to customize/set (the ToolbarDecorator interface is provided)
+##### 4. Create decorators for each view item you want to customize/set (the ToolbarDecorator interface is provided)
 ```kotlin
 class ToolbarTitleDecorator(private val title: String) : ToolbarDecorator {
 
@@ -56,12 +58,12 @@ class ToolbarTitleDecorator(private val title: String) : ToolbarDecorator {
 }
 ```
 
-##### 3. Instantiate ToolbarController in your Activity
+##### 5. Instantiate ToolbarController in your Activity
 ```kotlin
     private val toolbarController: ToolbarController = ToolbarController()
 ```
 
-##### 4. Use it (in onCreate method) to set the decorators and build the toolbar with your layout.
+##### 6. Use it (in onCreate method) to set the decorators and build the toolbar with your layout.
 ```kotlin
 toolbarController
                 .addDecorator(ToolbarBackgroundColorDecorator(colorRes= R.color.green))
