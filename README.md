@@ -23,5 +23,10 @@ implementation 'com.github.nomtek.NomtekUtills:toolbarcontroller:1.0.2'
 ###### StatusbarController  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/statusbarcontroller/README.md)  - [![](https://jitpack.io/v/nomtek/NomtekUtills.svg)](https://jitpack.io/#nomtek/NomtekUtills)
 ```gradle
 implementation 'com.github.nomtek.NomtekUtills:statusbarcontroller:1.0.2'
-``` 
+```
+
+###### RecyclerBucketList  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/recyclerbucketlist/README.md)  - [![](https://jitpack.io/v/nomtek/NomtekUtills.svg)](https://jitpack.io/#nomtek/NomtekUtills)
+```gradle
+implementation 'com.github.nomtek.NomtekUtills:recyclerbucketlist:1.0.2'
+```
 
