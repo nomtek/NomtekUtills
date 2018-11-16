@@ -17,14 +17,14 @@ allprojects {
   
 ###### ToolbarController  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/toolbarcontroller/README.md)  
   
-<img src="../resources/app.gif" width="250">  
+<img src="./resources/app.gif" width="250">  
   
 ```gradle  
 implementation 'com.github.nomtek.NomtekUtills:toolbarcontroller:1.0.2'  
 ```   
 ###### StatusbarController  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/statusbarcontroller/README.md) 
   
-<img src="../resources/statusbar.gif" width="250">  
+<img src="./resources/statusbar.gif" width="250">  
   
 ```gradle  
 implementation 'com.github.nomtek.NomtekUtills:statusbarcontroller:1.0.2'  
