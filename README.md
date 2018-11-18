@@ -34,6 +34,7 @@ implementation 'com.github.nomtek.NomtekUtills:statusbarcontroller:1.0.2'
 ###### RecyclerBucketList  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/recyclerbucketlist/README.md)
 
 <img src="./resources/recycler_bucket.gif" width="250">
+
 ```gradle
 implementation 'com.github.nomtek.NomtekUtills:recyclerbucketlist:1.0.2'
 ```
