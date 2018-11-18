@@ -8,6 +8,8 @@ You put your recyclerview items into buckets that you define.
 <img src="../resources/recycler_bucket.gif" width="250">
 
 ### How to use ( full example in the "app" folder )
+The sample uses https://github.com/sockeqwe/AdapterDelegates library so we can have separate adapter
+delegate for each view type.
 ##### 1. Create list item bucket for you recyclerView. It should extend from ListItemBucket
 ```kotlin
 class HomeListItemBucket : ListItemBucket<HomeListItem>() {
