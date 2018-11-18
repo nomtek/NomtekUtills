@@ -1,7 +1,7 @@
 [![](https://jitpack.io/v/nomtek/NomtekUtills.svg)](https://jitpack.io/#nomtek/NomtekUtills)
 # Recycler bucket list (min sdk version - 16 )
 Managing complex recylerView collections was never easier!
-This library simplifies managing complex recyclerview collections. This libreary is useful if you
+This library simplifies managing complex recyclerview collections. This library is useful if you
 have multiple types of items in one recyclerview.
 You put your recyclerview items into buckets that you define.
 
