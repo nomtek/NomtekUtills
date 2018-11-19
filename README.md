@@ -5,7 +5,7 @@ Detailed instructions are available in **How to use** sections.
   
 ### How to install  
 ##### 1. Add jitpack repository to your gradle file 
-<<<<<<< HEAD
+
 ```gradle  
 allprojects {  
 	repositories { ... 
