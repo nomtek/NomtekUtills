@@ -1,4 +1,6 @@
 [![](https://jitpack.io/v/nomtek/NomtekUtills.svg)](https://jitpack.io/#nomtek/NomtekUtills)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Recycler bucket list (min sdk version - 16 )
 Managing complex recylerView collections was never easier!
 This library simplifies managing complex recyclerview collections. This library is useful if you
