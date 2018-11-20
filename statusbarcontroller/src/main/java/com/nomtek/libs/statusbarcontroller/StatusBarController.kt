@@ -13,7 +13,8 @@ data class StatusBarController(
         private val activity: Activity,
         private var backgroundColorHex: Int? = null,
         private var backgroundColorRes: Int? = null,
-        private var isDarkTint: Boolean = false
+        private var isDarkTint: Boolean = false,
+        private var isFullScreen: Boolean = false
 ) {
 
     init {
@@ -28,7 +29,11 @@ data class StatusBarController(
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
         window.statusBarColor = obtainBackgroundColor()
         val statusBarAdditionalFlags = if (isDarkTint) View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR else 0
-        window.decorView.systemUiVisibility = statusBarAdditionalFlags
+        var flagsToSet = 0
+        if (isFullScreen) {
+            flagsToSet = View.SYSTEM_UI_FLAG_LAYOUT_STABLE or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+        }
+        window.decorView.systemUiVisibility = flagsToSet or statusBarAdditionalFlags
     }
 
     private fun obtainBackgroundColor(): Int {
