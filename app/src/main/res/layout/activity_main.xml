@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context="com.nomtek.MainActivity">
 
     <Button
         android:id="@+id/toolbarButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Toolbar Controller"
-        app:layout_constraintBottom_toTopOf="@+id/statusbarButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Toolbar Controller" />
 
     <Button
         android:id="@+id/statusbarButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Statusbar Controller"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarButton" />
+        android:layout_marginTop="16dp"
+        android:text="Statusbar Controller" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/recyclerListItemBucketButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="RecyclerView list item bucket" />
+
+</LinearLayout>

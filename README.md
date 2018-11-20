@@ -5,6 +5,7 @@ Detailed instructions are available in **How to use** sections.
   
 ### How to install  
 ##### 1. Add jitpack repository to your gradle file 
+
 ```gradle  
 allprojects {  
 	repositories { ... 
@@ -20,12 +21,22 @@ allprojects {
 <img src="./resources/app.gif" width="250">  
   
 ```gradle  
-implementation 'com.github.nomtek.NomtekUtills:toolbarcontroller:1.0.2'  
+implementation 'com.github.nomtek.NomtekUtills:toolbarcontroller:1.0.3'  
 ```   
 ###### StatusbarController  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/statusbarcontroller/README.md) 
   
 <img src="./resources/statusbar.gif" width="250">  
   
 ```gradle  
-implementation 'com.github.nomtek.NomtekUtills:statusbarcontroller:1.0.2'  
+implementation 'com.github.nomtek.NomtekUtills:statusbarcontroller:1.0.3'  
 ```
+
+###### RecyclerBucketList  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/recyclerbucketlist/README.md)
+
+<img src="./resources/recycler_bucket.gif" width="250">
+
+```gradle
+implementation 'com.github.nomtek.NomtekUtills:recyclerbucketlist:1.0.3'
+```
+
+

@@ -3,6 +3,7 @@ package com.nomtek
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.nomtek.recyclerbucketlist.example.RecyclerListItemBucketActivity
 import com.nomtek.statusbarcontroller.example.StatusBarActivity
 import com.nomtek.toolbarcontroller.example.R
 import com.nomtek.toolbarcontroller.example.ToolbarActivity
@@ -22,6 +23,9 @@ class MainActivity : AppCompatActivity() {
         }
         statusbarButton.setOnClickListener {
             startActivity(Intent(this, StatusBarActivity::class.java))
+        }
+        recyclerListItemBucketButton.setOnClickListener {
+            startActivity(Intent(this, RecyclerListItemBucketActivity::class.java))
         }
     }
 }

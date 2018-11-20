@@ -1,1 +1,1 @@
-include ':app', ':toolbarcontroller', ':statusbarcontroller'
+include ':app', ':toolbarcontroller', ':statusbarcontroller', ':recyclerbucketlist'

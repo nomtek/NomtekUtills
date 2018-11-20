@@ -1,4 +1,6 @@
 [![](https://jitpack.io/v/nomtek/NomtekUtills.svg)](https://jitpack.io/#nomtek/NomtekUtills)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 # StatusBarController (min sdk version - 21 )
 Customize toolbar with one line of the code!

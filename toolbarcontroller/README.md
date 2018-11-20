@@ -1,4 +1,6 @@
 [![](https://jitpack.io/v/nomtek/NomtekUtills.svg)](https://jitpack.io/#nomtek/NomtekUtills)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # ToolbarController (min sdk version - 16 )
 Create and customise your own toolbar!
 
