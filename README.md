@@ -15,20 +15,21 @@ allprojects {
  ```  
   
 ##### 2. Add dependency to your gradle file  
+Version - [![](https://jitpack.io/v/nomtek/NomtekUtills.svg)](https://jitpack.io/#nomtek/NomtekUtills)
   
 ###### ToolbarController  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/toolbarcontroller/README.md)  
   
 <img src="./resources/app.gif" width="250">  
   
 ```gradle  
-implementation 'com.github.nomtek.NomtekUtills:toolbarcontroller:1.0.3'  
+implementation 'com.github.nomtek.NomtekUtills:toolbarcontroller:X.X.X}'  
 ```   
 ###### StatusbarController  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/statusbarcontroller/README.md) 
   
 <img src="./resources/statusbar.gif" width="250">  
   
 ```gradle  
-implementation 'com.github.nomtek.NomtekUtills:statusbarcontroller:1.0.3'  
+implementation 'com.github.nomtek.NomtekUtills:statusbarcontroller:X.X.X'  
 ```
 
 ###### RecyclerBucketList  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/recyclerbucketlist/README.md)
@@ -36,7 +37,7 @@ implementation 'com.github.nomtek.NomtekUtills:statusbarcontroller:1.0.3'
 <img src="./resources/recycler_bucket.gif" width="250">
 
 ```gradle
-implementation 'com.github.nomtek.NomtekUtills:recyclerbucketlist:1.0.3'
+implementation 'com.github.nomtek.NomtekUtills:recyclerbucketlist:X.X.X'
 ```
 
 
