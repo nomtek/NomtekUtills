@@ -40,4 +40,11 @@ implementation 'com.github.nomtek.NomtekUtills:statusbarcontroller:X.X.X'
 implementation 'com.github.nomtek.NomtekUtills:recyclerbucketlist:X.X.X'
 ```
 
+###### CenterCropVideoView  [How to use](https://github.com/nomtek/NomtekUtills/blob/master/centercropvideoview/README.md)
+
+<img src="./resources/centercropvideoview.gif" width="250">
+
+```gradle
+implementation 'com.github.nomtek.NomtekUtills:centercropvideoview:X.X.X'
+```
 
