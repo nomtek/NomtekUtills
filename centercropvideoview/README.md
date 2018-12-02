@@ -1,11 +1,12 @@
 [![](https://jitpack.io/v/nomtek/NomtekUtills.svg)](https://jitpack.io/#nomtek/NomtekUtills)
 
-# Recycler bucket list (min sdk version - 16 )
+# CenterCropVideoView (min sdk version - 16 )
 
-<img src="../resources/recycler_bucket.gif" width="250">
+<img src="../resources/centercropvideoview.gif" width="250">
 
-### How to use - our [sample](https://github.com/nomtek/NomtekUtills/tree/master/app/src/main/java/com/nomtek/recyclerbucketlist/example)
-##### Add CenterCropVideoView to your activity layout.
+### How to use - our [sample](https://github
+.com/nomtek/NomtekUtills/tree/master/app/src/main/java/com/nomtek/centercropvideoview/example)
+##### 1. Add CenterCropVideoView to your activity layout.
 ```xml
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -38,8 +39,35 @@
 
 ```
 
-##### License
+##### 2. Start playing video. Pause the video when application goes to the background
+and resume when it comes back to the foreground
+```kotlin
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_center_crop_video)
+        val path = "android.resource://${this.packageName}/${R.raw.sample}"
+        centerCropVideoView.setVideoURI(Uri.parse(path))
+        centerCropVideoView.setOnPreparedListener(MediaPlayer.OnPreparedListener {
+            it.start()
+        })
 
+    }
+
+    override fun onResume() {
+        super.onResume()
+        centerCropVideoView.start()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        centerCropVideoView.pause()
+    }
+
+```
+
+
+##### 3. License
+```
  Copyright (C) 2006 The Android Open Source Project
 
  Licensed under the Apache License, Version 2.0 (the "License");

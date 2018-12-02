@@ -3,6 +3,7 @@ package com.nomtek
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.nomtek.centercropvideoview.example.CenterCropVideoViewActivity
 import com.nomtek.recyclerbucketlist.example.RecyclerListItemBucketActivity
 import com.nomtek.statusbarcontroller.example.StatusBarActivity
 import com.nomtek.toolbarcontroller.example.R
@@ -26,6 +27,9 @@ class MainActivity : AppCompatActivity() {
         }
         recyclerListItemBucketButton.setOnClickListener {
             startActivity(Intent(this, RecyclerListItemBucketActivity::class.java))
+        }
+        centerCropVideoViewButton.setOnClickListener {
+            startActivity(Intent(this, CenterCropVideoViewActivity::class.java))
         }
     }
 }

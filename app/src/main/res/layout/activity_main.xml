@@ -27,4 +27,11 @@
         android:layout_marginTop="16dp"
         android:text="RecyclerView list item bucket" />
 
+    <Button
+        android:id="@+id/centerCropVideoViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Center-crop video view" />
+
 </LinearLayout>

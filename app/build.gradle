@@ -40,4 +40,5 @@ dependencies {
     implementation project(':toolbarcontroller')
     implementation project(':statusbarcontroller')
     implementation project(':recyclerbucketlist')
+    implementation project(':centercropvideoview')
 }
