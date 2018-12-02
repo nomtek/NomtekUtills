@@ -1,6 +1,12 @@
 [![](https://jitpack.io/v/nomtek/NomtekUtills.svg)](https://jitpack.io/#nomtek/NomtekUtills)
 
 # CenterCropVideoView (min sdk version - 16 )
+View that supports playing videos in center crop mode. CenterCropVideoView is based on VideoView from
+the official Android sources for 7.1.1_r13. The main difference is that it extends
+[android.view.TextureView](https://developer.android.com/reference/android/view/TextureView) instead of a
+[android.view.SurfaceView](https://developer.android.com/reference/android/view/SurfaceView). This change
+lets us to use method [setTransform(Matrix matrix)](https://developer.android.com/reference/android/view/TextureView.html#setTransform(android.graphics.Matrix))
+to apply correct scaling to the video.
 
 <img src="../resources/centercropvideoview.gif" width="250">
 
