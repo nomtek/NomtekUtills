@@ -8,39 +8,22 @@
 .com/nomtek/NomtekUtills/tree/master/app/src/main/java/com/nomtek/centercropvideoview/example)
 ##### 1. Add CenterCropVideoView to your activity layout.
 ```xml
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/backActionImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="@style/ToolbarIconImageViewLight"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_arrow_back_black"/>
+    <com.nomtek.libs.centercropvideoview.CenterCropVideoView
+        android:id="@+id/centerCropVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
-    <TextView
-        android:id="@+id/titleTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        style="@style/ToolbarTitleBoldWhiteWithBackAction"
-        android:text="@string/second_activity_toolbar_title"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-
-</android.support.constraint.ConstraintLayout>
+</FrameLayout>
 
 ```
 
-##### 2. Start playing video. Pause the video when application goes to the background
-and resume when it comes back to the foreground
+##### 2. Start playing video. Pause the video when application goes to the background and resume
+when it comes back to the foreground
 ```kotlin
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
